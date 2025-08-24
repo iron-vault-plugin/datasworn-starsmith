@@ -1,6 +1,6 @@
 {
   "name": "@iron-vault/datasworn-starsmith",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "exports": {
     ".": "./dist/starsmith.json"
