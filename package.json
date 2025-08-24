@@ -1,0 +1,26 @@
+{
+  "name": "@iron-vault/datasworn-starsmith",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./dist/starsmith.json"
+  },
+  "scripts": {
+    "build": "datasworn-compiler build --outfile dist/starsmith.json src"
+  },
+  "repository": "github:iron-vault-plugin/datasworn-starsmith",
+  "keywords": [],
+  "author": "Eric Bright",
+  "contributors": [
+    "BestAmericanGirl"
+  ],
+  "maintainers": [
+    "Chris Wegrzyn <chris.wegrzyn@gmail.com>"
+  ],
+  "license": "CC-BY-4.0",
+  "packageManager": "pnpm@10.15.0",
+  "type": "module",
+  "devDependencies": {
+    "@iron-vault/datasworn-compiler-cli": "^0.1.3"
+  }
+}

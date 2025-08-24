@@ -1,0 +1,68 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@iron-vault/datasworn-compiler-cli':
+        specifier: ^0.1.3
+        version: 0.1.3
+
+packages:
+
+  '@iron-vault/datasworn-compiler-cli@0.1.3':
+    resolution: {integrity: sha512-u6Ahppr7OrZTK8Xuw+A3N3tBjKlhjEVnQ+EwbHxN2bbFOf3oCiSjEZguzp+xg7qkPSb8J36GFnAPPjKYpc0dmQ==}
+    engines: {node: '>=20', pnpm: '>=9'}
+    hasBin: true
+
+  '@stricli/auto-complete@1.2.0':
+    resolution: {integrity: sha512-r9/msiloVmTF95mdhe04Uzqei1B0ZofhYRLeiPqpJ1W1RMCC8p9iW7kqBZEbALl2aRL5ZK9OEW3Q1cIejH7KEQ==}
+    hasBin: true
+
+  '@stricli/core@1.2.0':
+    resolution: {integrity: sha512-5b+npntDY0TAB7wAw0daGlh3/R2sf0TDLyrB1By2jCNH+C+lmcSqMtJXOMLVtEGSkIOvqAgIWpLMSs1PXqzt3w==}
+
+  '@ungap/structured-clone@1.2.0':
+    resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  adze@2.2.5:
+    resolution: {integrity: sha512-QK+1EdcehjO1IRR8Bd4L7jhpeav+Enrp/cRLOlpHMsc4pdFTAKI5RI3rHqCakIVzq1RVZXCIzykMcD31ipiHAQ==}
+    engines: {node: '>=18.19.0'}
+
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
+snapshots:
+
+  '@iron-vault/datasworn-compiler-cli@0.1.3':
+    dependencies:
+      '@stricli/auto-complete': 1.2.0
+      '@stricli/core': 1.2.0
+      adze: 2.2.5
+      yaml: 2.8.1
+
+  '@stricli/auto-complete@1.2.0':
+    dependencies:
+      '@stricli/core': 1.2.0
+
+  '@stricli/core@1.2.0': {}
+
+  '@ungap/structured-clone@1.2.0': {}
+
+  adze@2.2.5:
+    dependencies:
+      '@ungap/structured-clone': 1.2.0
+      picocolors: 1.1.1
+
+  picocolors@1.1.1: {}
+
+  yaml@2.8.1: {}
