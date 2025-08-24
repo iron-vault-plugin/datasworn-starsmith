@@ -1,12 +1,15 @@
 {
   "name": "@iron-vault/datasworn-starsmith",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "exports": {
     ".": "./dist/starsmith.json"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "build": "datasworn-compiler build --outfile dist/starsmith.json src"
+    "build": "mkdir -p dist &&datasworn-compiler build --outfile dist/starsmith.json src"
   },
   "repository": "github:iron-vault-plugin/datasworn-starsmith",
   "keywords": [],
